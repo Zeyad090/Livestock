@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@xml/gardiends_background"
+    tools:context=".UI.ChoosingListAnimalFragment">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="390dp"
+        android:layout_height="685dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="402dp"
+        android:layout_marginTop="722dp"
+        android:layout_marginEnd="411dp"
+        android:layout_marginBottom="731dp"
+        android:background="@xml/gardiends_background"
+        android:columnCount="1"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_birds"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shadow"
+
+                >
+
+
+                <TextView
+
+                    android:layout_width="366dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingStart="50dp"
+                    android:paddingLeft="70dp"
+                    android:paddingTop="50dp"
+                    android:paddingEnd="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:text="الطيور"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:textStyle="bold|italic" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_pet"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shadow">
+
+
+                <TextView
+
+                    android:layout_width="361dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="50dp"
+                    android:paddingLeft="70dp"
+                    android:paddingTop="50dp"
+                    android:paddingEnd="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="50dp"
+                    android:text="الحيوانات الأليفة"
+                    android:textColor="@color/black"
+                    android:textSize="41dp"
+                    android:textStyle="bold|italic" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_livestock"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_shadow">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="50dp"
+                    android:paddingLeft="70dp"
+                    android:paddingTop="50dp"
+                    android:paddingEnd="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="30dp"
+                    android:text="باقي الحيوانات"
+                    android:textColor="@color/black"
+                    android:textSize="40dp"
+                    android:textStyle="bold|italic" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/backChoosing"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

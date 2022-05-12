@@ -1,0 +1,287 @@
+<resources>
+    <string name="app_name" translatable="false">Livestock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string-array name="Camels">
+        <item>مجاهيم</item>
+        <item>المغاتير</item>
+        <item>الشقحاء</item>
+        <item>الشعلاء</item>
+        <item>الصفر</item>
+        <item>الحمر</item>
+        <item>الأوراك</item>
+
+
+    </string-array>
+    <string-array name="Type">
+        <item>بلدي</item>
+        <item>مستورد</item>
+    </string-array>
+    <string-array name="horse">
+        <item>الخيول العربية</item>
+        <item>خيول ثوروبيرد</item>
+        <item>خيل كوارتر الأمريكي</item>
+        <item>خيل أبالوزا الروسي</item>
+        <item>خيول الفريزيان الهولاندية</item>
+        <item>الحصان البلجيكي</item>
+        <item>خيول كلايدزديل</item>
+        <item>الخيل الأندلسية</item>
+    </string-array>
+    <string-array name="sheep">
+        <item>نجدي</item>
+        <item>عربي</item>
+        <item>نعيمي</item>
+        <item>بربري</item>
+    </string-array>
+    <string-array name="cow">
+        <item>الهوليستن فرزيان</item>
+        <item> الجرسي</item>
+        <item>الأيرشير</item>
+        <item>الأبردين أنجس</item>
+        <item>الأبقار الشاميّة</item>
+        <item>البراهمان</item>
+        <item>الشارلاي</item>
+        <item>الهيرفورد</item>
+        <item>السمنتال</item>
+        <item>الديفون</item>
+        <item>الهايلاند</item>
+        <item>الجيرسي</item>
+        <item>الآيرشاير</item>
+        <item>السويسرية البنية</item>
+
+    </string-array>
+    <string-array name="line">
+        <item>الأسد البربري</item>
+        <item>أسد جنوب غرب إفريقيا</item>
+        <item> أسد شمال شرق الكونغو</item>
+        <item>أسد الترنسفال</item>
+        <item>أسد شرق إفريقيا</item>
+        <item>الاسد الاسيوي</item>
+        <item>أسد غرب إفريقيا</item>
+        <item>الأسد الاسيوي</item>
+    </string-array>
+
+    <string-array name="taiger">
+        <item>نمر ياوان</item>
+        <item>النمر الأفريقي</item>
+        <item>النمر الماليزي</item>
+        <item>النمور السوداء</item>
+        <item>النمر البنغالي</item>
+        <item>نمر بحر قزوين</item>
+        <item>النمر الأبيض</item>
+        <item> النمر الذهبي</item>
+    </string-array>
+    <string-array name="dog">
+        <item>أفادور</item>
+        <item>البولدوغ</item>
+        <item>الراعي الاسترالي</item>
+        <item>بورادو</item>
+        <item> بوكيت بيجل</item>
+        <item>جيرمن شيبرد</item>
+        <item>ليون بيرجر</item>
+        <item>السولوقي</item>
+        <item>بطباط</item>
+        <item>باسنجي</item>
+
+    </string-array>
+    <string-array name="Cat">
+        <item>عربي</item>
+        <item>حبشى</item>
+        <item>بحر إيجة</item>
+        <item>ميست الأسترالي</item>
+        <item>بوليكاتل</item>
+        <item>اسيوي</item>
+        <item>بالاس</item>
+        <item>البالينيزى</item>
+        <item>بامبينو</item>
+        <item>بورمي</item>
+        <item>الماو المصرى</item>
+    </string-array>
+    <string-array name="donkey">
+        <item>النوبي الوحشي</item>
+        <item>الصومالي</item>
+        <item>الأمريكي المنقط</item>
+        <item>القبرصي</item>
+        <item> البواتو</item>
+        <item>الوحشي</item>
+    </string-array>
+    <string-array name="monkey">
+        <item> الغوريلا</item>
+        <item>البابون</item>
+        <item>الشمبانزي</item>
+        <item> الماندريل</item>
+    </string-array>
+    <string-array name="Giraffe">
+        <item>الشمالية</item>
+        <item>الشبكية</item>
+        <item>الماساي</item>
+        <item>الجنوبية</item>
+    </string-array>
+    <string-array name="Hyena">
+        <item>الرقطاء</item>
+        <item>الغثراء</item>
+        <item>المخطط</item>
+        <item>عسبار</item>
+    </string-array>
+    <string-array name="elephant">
+        <item>الفيل الأفريقي</item>
+        <item>فيل السافانا الأفريقي</item>
+        <item>فيل الغابات الأفريقي</item>
+        <item>الفيل الآسيوي</item>
+        <item>الفيل السريلانكي</item>
+        <item>الفيل الهندي</item>
+        <item>الفيل السومطري</item>
+        <item>فيل بورنيو</item>
+    </string-array>
+    <string-array name="Deer">
+        <item>غزال سيتكا</item>
+        <item>غزال أييليت</item>
+        <item>سيرين</item>
+        <item>دوركاس</item>
+        <item>نيابي</item>
+        <item>أوبرا</item>
+        <item>رشا</item>
+        <item>شيكا</item>
+    </string-array>
+    <string-array name="ostrich">
+        <item>النعام ذو الرقبة الزرقاء</item>
+        <item>النعام ذو الرقبة الحمراء</item>
+        <item>النعام الأسود الأفريقي</item>
+    </string-array>
+    <string-array name="Ciconia">
+        <item>لقلق أبديم</item>
+        <item>لقلق صوفي العنق</item>
+        <item>لقلق ستروم</item>
+        <item>لقلق ماجواري</item>
+        <item>لقلق الأبيض الشرقي</item>
+        <item>لقلق الأبيض</item>
+        <item>لقلق الأسود</item>
+    </string-array>
+
+    <string-array name="dove">
+        <item>الحمام الملك</item>
+        <item>الحمام الريحاني</item>
+        <item>حمام البومة</item>
+        <item>الحمام الكشك</item>
+        <item>حمام العقعق</item>
+        <item>الحمام الوحشي</item>
+        <item>الحمام ذو الذيل المخطط</item>
+        <item>الحمام الزاجل</item>
+    </string-array>
+    <string-array name="eater">
+        <item>الوروار الأوروبي</item>
+        <item>الوروار مخفي الذيل</item>
+        <item>الوروار الأخضر</item>
+        <item>الوروار أزرق الذيل</item>
+        <item>الوروار قوس قزح</item>
+        <item>الوروار الصغير</item>
+    </string-array>
+
+    <string-array name="falcon">
+        <item>الحر</item>
+        <item>الشاهين</item>
+        <item>الوكري</item>
+        <item>الجير</item>
+    </string-array>
+    <string-array name="hoopoe">
+        <item>الهدهد الأوراسي</item>
+        <item>الهدهد المدغشقري</item>
+        <item>الهدهد الأفريقي</item>
+    </string-array>
+    <string-array name="owl">
+        <item>البومة البيضاء</item>
+        <item>بومة الحظائر</item>
+        <item>بومة النسر</item>
+        <item> البومة الصغيرة (أم قويق)</item>
+        <item>البومة الصيّاحة</item>
+        <item> البومة الرمادية العظيمة</item>
+    </string-array>
+    <string-array name="petCat">
+        <item>القطط الشيرازي</item>
+        <item>قط المانكس</item>
+        <item>القط الحبشي</item>
+        <item>القط بيرمان</item>
+        <item>قط الهيمالايا</item>
+        <item>قط الماو المصري</item>
+        <item>قط ميست الاسترالي</item>
+        <item>القط البورمي</item>
+    </string-array>
+    <string-array name="petDog">
+        <item>كلب يوركشاير</item>
+        <item>كلب بوميرينيان</item>
+        <item>كلب شيواوا</item>
+        <item>كلب جريفون</item>
+        <item>كلب بولونيز</item>
+        <item>كلب بيكينيز</item>
+    </string-array>
+    <string-array name="petParrot">
+        <item>طائر الكوكتيل</item>
+        <item>طائر الحب</item>
+        <item>عصفور الشرشور</item>
+        <item>الببغاء الصغير</item>
+        <item>ببغاء بوركي</item>
+        <item>الببغاء السنغالي</item>
+        <item>ببغاء بينوس</item>
+        <item>طائر البادجي</item>
+    </string-array>
+    <string-array name="petfish">
+        <item>السمكة الذهبية</item>
+        <item>سمك الكات فيش</item>
+        <item>سمك هارلي كوين</item>
+        <item>سمكة السحابة البيضاء</item>
+        <item>سمك دانيو</item>
+        <item>سمكة ثعبان كولي</item>
+        <item>سمكة تترا السوداء</item>
+        <item>سمكة شري بارب</item>
+    </string-array>
+    <string-array name="quail">
+        <item>السمان بوب وايت</item>
+        <item>السمان البري</item>
+        <item>السمان الملك</item>
+        <item>السمان جامبل</item>
+        <item>السمان الجبلي</item>
+        <item>السمان الأزرق</item>
+        <item>سمان كاليفورنيا </item>
+    </string-array>
+    <string-array name="roller">
+        <item>شقراق أبيض</item>
+        <item>شقراق أوروبي</item>
+        <item>شقراق حبشي</item>
+        <item>شقراق هندي</item>
+        <item>شقراق ملوقي </item>
+        <item>شقراق أرجواني الجناح</item>
+        <item>شقراق ليلكي الصدر</item>
+    </string-array>
+    <string-array name="sparrow">
+        <item>الجاوا</item>
+        <item>الكناري</item>
+        <item>الحســون</item>
+        <item>الكاردينال البرازيلي</item>
+        <item>الشرشور</item>
+        <item>السّمامة</item>
+        <item>السنونو</item>
+        <item>أبو حناء</item>
+        <item>الدنّوك</item>
+        <item>الحميرة السوداء</item>
+        <item>العصفور الكبير</item>
+    </string-array>
+    <string-array name="turtle">
+        <item> القمري الضاحك</item>
+        <item>الدنقلة</item>
+        <item>قمري  الفاكهة</item>
+        <item>القمري العادي</item>
+        <item>القمري الماسي</item>
+        <item>القمري الهزال</item>
+    </string-array>
+    <string-array name="virgo">
+        <item> ذو التاج الأحمر</item>
+        <item>ذو التاج الأسود</item>
+        <item>الرهو</item>
+        <item>الهتاف</item>
+        <item> ساروس</item>
+        <item>السيبيري</item>
+        <item>كركي الرمال</item>
+
+    </string-array>
+</resources>

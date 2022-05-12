@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@xml/gardiends_background"
+    tools:context=".UI.BirdsFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="اختر من القائمة"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdCiconia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/ciconia"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ciconia" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ciconia"
+                    android:layout_centerInParent="true"
+                    android:text="اللـقـلق"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdDove"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">>
+
+                <ImageView
+                    android:id="@+id/dove"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/dove" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dove"
+                    android:layout_centerInParent="true"
+                    android:text="الحـمـام"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdFalcon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">>
+
+                <ImageView
+                    android:id="@+id/falcon"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/falcon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/falcon"
+                    android:layout_centerInParent="true"
+                    android:text="الصـقور"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdHoopoe"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/hoopoe"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/hoopoe" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hoopoe"
+                    android:layout_centerInParent="true"
+                    android:text="الهـدهـد"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdOwl"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/owl"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/owl" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/owl"
+                    android:layout_centerInParent="true"
+                    android:text="الـبومـة"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdQuail"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/quail"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/quail" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/quail"
+                    android:layout_centerInParent="true"
+                    android:text="السـمـان"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdRoller"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/roller"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/roller" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/roller"
+                    android:layout_centerInParent="true"
+                    android:text="شـقـران"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdSparrow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/sparrow"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/sparrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sparrow"
+                    android:layout_centerInParent="true"
+                    android:text="العصفور"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdTurtleDove"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/turtle"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/turtle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/turtle"
+                    android:layout_centerInParent="true"
+                    android:text="القـمـري"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdVirgo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/virgo"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/virgo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/virgo"
+                    android:layout_centerInParent="true"
+                    android:text="الـرهـو"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ostrich0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/ostrich"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ostrich" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ostrich"
+                    android:layout_centerInParent="true"
+                    android:text="النـعـام"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/birdEater"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-1dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:background="@drawable/background_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/eater"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/eater" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eater"
+                    android:layout_centerInParent="true"
+                    android:text="الـوروار"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

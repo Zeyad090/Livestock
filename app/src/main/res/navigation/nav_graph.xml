@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashfragment">
+
+    <fragment
+        android:id="@+id/splashfragment"
+        android:name="zeyad.app.livestock.splashfragment"
+        android:label="fragment_splashfragment"
+        tools:layout="@layout/fragment_splashfragment" >
+        <action
+            android:id="@+id/action_splashfragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/livestockFragment"
+        android:name="zeyad.app.livestock.UI.LivestockFragment"
+        android:label="fragment_livestock"
+        tools:layout="@layout/fragment_livestock" >
+        <action
+            android:id="@+id/action_livestockFragment_to_camelFragment"
+            app:destination="@id/camelFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_catFragment"
+            app:destination="@id/catFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_cowFragment"
+            app:destination="@id/cowFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_deerFragment"
+            app:destination="@id/deerFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_dogFragment"
+            app:destination="@id/dogFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_donkeyFragment"
+            app:destination="@id/donkeyFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_elephantFragment"
+            app:destination="@id/elephantFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_giraffeFragment"
+            app:destination="@id/giraffeFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_horseFragment"
+            app:destination="@id/horseFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_hyenaFragment"
+            app:destination="@id/hyenaFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_lionFragment"
+            app:destination="@id/lionFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_monkeyFragment"
+            app:destination="@id/monkeyFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_sheepFragment"
+            app:destination="@id/sheepFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_tigerFragment"
+            app:destination="@id/tigerFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_livestockFragment_to_choosingListAnimalFragment"
+            app:destination="@id/choosingListAnimalFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="zeyad.app.livestock.UI.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_splashfragment"
+            app:destination="@id/splashfragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_choosingListAnimalFragment"
+            app:destination="@id/choosingListAnimalFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_signInFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_signInFragment_to_informationsBackFragment"
+            app:destination="@id/informationsBackFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/camelFragment"
+        android:name="zeyad.app.livestock.UI.CamelFragment"
+        android:label="fragment_camel"
+        tools:layout="@layout/fragment_camel" >
+        <action
+            android:id="@+id/action_camelFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/catFragment"
+        android:name="zeyad.app.livestock.UI.CatFragment"
+        android:label="fragment_cat"
+        tools:layout="@layout/fragment_cat" >
+        <action
+            android:id="@+id/action_catFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/cowFragment"
+        android:name="zeyad.app.livestock.UI.CowFragment"
+        android:label="fragment_cow"
+        tools:layout="@layout/fragment_cow" >
+        <action
+            android:id="@+id/action_cowFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/deerFragment"
+        android:name="zeyad.app.livestock.UI.DeerFragment"
+        android:label="fragment_deer"
+        tools:layout="@layout/fragment_deer" >
+        <action
+            android:id="@+id/action_deerFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/dogFragment"
+        android:name="zeyad.app.livestock.UI.DogFragment"
+        android:label="fragment_dog"
+        tools:layout="@layout/fragment_dog" >
+        <action
+            android:id="@+id/action_dogFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/donkeyFragment"
+        android:name="zeyad.app.livestock.UI.DonkeyFragment"
+        android:label="fragment_donkey"
+        tools:layout="@layout/fragment_donkey" >
+        <action
+            android:id="@+id/action_donkeyFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/elephantFragment"
+        android:name="zeyad.app.livestock.UI.ElephantFragment"
+        android:label="fragment_elephant"
+        tools:layout="@layout/fragment_elephant" >
+        <action
+            android:id="@+id/action_elephantFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/giraffeFragment"
+        android:name="zeyad.app.livestock.UI.GiraffeFragment"
+        android:label="fragment_giraffe"
+        tools:layout="@layout/fragment_giraffe" >
+        <action
+            android:id="@+id/action_giraffeFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/horseFragment"
+        android:name="zeyad.app.livestock.UI.HorseFragment"
+        android:label="fragment_horse"
+        tools:layout="@layout/fragment_horse" >
+        <action
+            android:id="@+id/action_horseFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/hyenaFragment"
+        android:name="zeyad.app.livestock.UI.HyenaFragment"
+        android:label="fragment_hyena"
+        tools:layout="@layout/fragment_hyena" >
+        <action
+            android:id="@+id/action_hyenaFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/lionFragment"
+        android:name="zeyad.app.livestock.UI.LionFragment"
+        android:label="fragment_lion"
+        tools:layout="@layout/fragment_lion">
+        <action
+            android:id="@+id/action_lineFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/monkeyFragment"
+        android:name="zeyad.app.livestock.UI.MonkeyFragment"
+        android:label="fragment_monkey"
+        tools:layout="@layout/fragment_monkey" >
+        <action
+            android:id="@+id/action_monkeyFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/ostrichFragment"
+        android:name="zeyad.app.livestock.UI.OstrichFragment"
+        android:label="fragment_ostrich"
+        tools:layout="@layout/fragment_ostrich" >
+        <action
+            android:id="@+id/action_ostrichFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/sheepFragment"
+        android:name="zeyad.app.livestock.UI.SheepFragment"
+        android:label="fragment_sheep"
+        tools:layout="@layout/fragment_sheep" >
+        <action
+            android:id="@+id/action_sheepFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/tigerFragment"
+        android:name="zeyad.app.livestock.UI.TigerFragment"
+        android:label="fragment_tiger"
+        tools:layout="@layout/fragment_tiger">
+        <action
+            android:id="@+id/action_tigerFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/choosingListAnimalFragment"
+        android:name="zeyad.app.livestock.UI.ChoosingListAnimalFragment"
+        android:label="fragment_choosing_list_animal"
+        tools:layout="@layout/fragment_choosing_list_animal" >
+        <action
+            android:id="@+id/action_choosingListAnimalFragment_to_livestockFragment"
+            app:destination="@id/livestockFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_choosingListAnimalFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_choosingListAnimalFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_choosingListAnimalFragment_to_petsFragment"
+            app:destination="@id/petsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/birdsFragment"
+        android:name="zeyad.app.livestock.UI.BirdsFragment"
+        android:label="fragment_birds"
+        tools:layout="@layout/fragment_birds" >
+        <action
+            android:id="@+id/action_birdsFragment_to_choosingListAnimalFragment"
+            app:destination="@id/choosingListAnimalFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_ostrichFragment"
+            app:destination="@id/ostrichFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_ciconiaFragment"
+            app:destination="@id/ciconiaFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_doveFragment"
+            app:destination="@id/doveFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_eaterFragment"
+            app:destination="@id/eaterFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_falconFragment"
+            app:destination="@id/falconFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_hoopoeFragment"
+            app:destination="@id/hoopoeFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_owlFragment"
+            app:destination="@id/owlFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_quailFragment"
+            app:destination="@id/quailFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_rollerFragment"
+            app:destination="@id/rollerFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_sparrowFragment"
+            app:destination="@id/sparrowFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_turtleFragment"
+            app:destination="@id/turtleFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_birdsFragment_to_virgoFragment"
+            app:destination="@id/virgoFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/petsFragment"
+        android:name="zeyad.app.livestock.UI.PetsFragment"
+        android:label="fragment_pets"
+        tools:layout="@layout/fragment_pets" >
+        <action
+            android:id="@+id/action_petsFragment_to_choosingListAnimalFragment"
+            app:destination="@id/choosingListAnimalFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_petsFragment_to_petCatFragment"
+            app:destination="@id/petCatFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_petsFragment_to_petDogFragment"
+            app:destination="@id/petDogFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_petsFragment_to_petParrotFragment"
+            app:destination="@id/petParrotFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_petsFragment_to_petsFishFragment"
+            app:destination="@id/petsFishFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/ciconiaFragment"
+        android:name="zeyad.app.livestock.UI.CiconiaFragment"
+        android:label="fragment_ciconia"
+        tools:layout="@layout/fragment_ciconia" >
+        <action
+            android:id="@+id/action_ciconiaFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/doveFragment"
+        android:name="zeyad.app.livestock.UI.DoveFragment"
+        android:label="fragment_dove"
+        tools:layout="@layout/fragment_dove" >
+        <action
+            android:id="@+id/action_doveFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/eaterFragment"
+        android:name="zeyad.app.livestock.UI.EaterFragment"
+        android:label="fragment_eater"
+        tools:layout="@layout/fragment_eater" >
+        <action
+            android:id="@+id/action_eaterFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/falconFragment"
+        android:name="zeyad.app.livestock.UI.FalconFragment"
+        android:label="fragment_falcon"
+        tools:layout="@layout/fragment_falcon" >
+        <action
+            android:id="@+id/action_falconFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/hoopoeFragment"
+        android:name="zeyad.app.livestock.UI.HoopoeFragment"
+        android:label="fragment_hoopoe"
+        tools:layout="@layout/fragment_hoopoe" >
+        <action
+            android:id="@+id/action_hoopoeFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/owlFragment"
+        android:name="zeyad.app.livestock.UI.OwlFragment"
+        android:label="fragment_owl"
+        tools:layout="@layout/fragment_owl" >
+        <action
+            android:id="@+id/action_owlFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/quailFragment"
+        android:name="zeyad.app.livestock.UI.QuailFragment"
+        android:label="fragment_quail"
+        tools:layout="@layout/fragment_quail" >
+        <action
+            android:id="@+id/action_quailFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/rollerFragment"
+        android:name="zeyad.app.livestock.UI.RollerFragment"
+        android:label="fragment_roller"
+        tools:layout="@layout/fragment_roller" >
+        <action
+            android:id="@+id/action_rollerFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/sparrowFragment"
+        android:name="zeyad.app.livestock.UI.SparrowFragment"
+        android:label="fragment_sparrow"
+        tools:layout="@layout/fragment_sparrow" >
+        <action
+            android:id="@+id/action_sparrowFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/turtleFragment"
+        android:name="zeyad.app.livestock.UI.TurtleFragment"
+        android:label="fragment_turtle"
+        tools:layout="@layout/fragment_turtle" >
+        <action
+            android:id="@+id/action_turtleFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/virgoFragment"
+        android:name="zeyad.app.livestock.UI.VirgoFragment"
+        android:label="fragment_virgo"
+        tools:layout="@layout/fragment_virgo" >
+        <action
+            android:id="@+id/action_virgoFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/petCatFragment"
+        android:name="zeyad.app.livestock.UI.PetCatFragment"
+        android:label="fragment_pet_cat"
+        tools:layout="@layout/fragment_pet_cat" >
+        <action
+            android:id="@+id/action_petCatFragment_to_petsFragment"
+            app:destination="@id/petsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/petDogFragment"
+        android:name="zeyad.app.livestock.UI.PetDogFragment"
+        android:label="fragment_pet_dog"
+        tools:layout="@layout/fragment_pet_dog" >
+        <action
+            android:id="@+id/action_petDogFragment_to_petsFragment"
+            app:destination="@id/petsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/petParrotFragment"
+        android:name="zeyad.app.livestock.UI.PetParrotFragment"
+        android:label="fragment_pet_parrot"
+        tools:layout="@layout/fragment_pet_parrot" >
+        <action
+            android:id="@+id/action_petParrotFragment_to_petsFragment"
+            app:destination="@id/petsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/petsFishFragment"
+        android:name="zeyad.app.livestock.UI.PetsFishFragment"
+        android:label="fragment_pets_fish"
+        tools:layout="@layout/fragment_pets_fish" >
+        <action
+            android:id="@+id/action_petsFishFragment_to_petsFragment"
+            app:destination="@id/petsFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="zeyad.app.livestock.UI.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/informationsBackFragment"
+        android:name="zeyad.app.livestock.UI.InformationsBackFragment"
+        android:label="fragment_informations_back"
+        tools:layout="@layout/fragment_informations_back" >
+        <action
+            android:id="@+id/action_informationsBackFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+</navigation>

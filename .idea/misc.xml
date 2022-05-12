@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ZEYAD/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_dropdown_item_1line.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/drawable/background.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/drawable/background_shadow.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/drawable/gardiends_background.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/drawable/ic_launcher_background.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/drawable/round_button.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/dropdown_items.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_animals_selecting.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_birds.xml" value="0.4" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_camel.xml" value="0.23476005188067445" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_cat.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_choosing_list_animal.xml" value="0.2" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_ciconia.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_cow.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_deer.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_dog.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_donkey.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_dove.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_eater.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_elephant.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_falcon.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_fishstocks.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_giraffe.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_hoopoe.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_horse.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_hyena.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_informations_back.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_line.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_lion.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_livestock.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_loin.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_monkey.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_ostrich.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_owl.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_pet_cat.xml" value="0.264" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_pet_dog.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_pet_parrot.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_pets.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_pets_fish.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_quail.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_roller.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_sheep.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_sing_in.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_sparrow.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_splashfragment.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_taiger.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_tiger.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_turtle.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/fragment_virgo.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/layout/round_button.xml" value="0.25" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.204" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+        <entry key="..\:/Users/ZEYAD/Downloads/material-components-android-codelabs-101-starter/Livestock/app/src/main/res/xml/background_shadow.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
